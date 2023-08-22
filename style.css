@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #222; */
+    background: url(https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2021-02/weather1_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.head{
+    /* background-color: red; */
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 750;
+    color: #deb8b8;
+    letter-spacing: 1.5px;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#2627276d,#525154ab);
+    color: #fff;
+    margin: 40px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffca7;
+   
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition:  background-color .7s;
+}
+.search button:hover{
+    background-color: #d2cbcb;
+}
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.weather h2{
+
+    font-size: 45px;
+    font-weight: 400;
+ 
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.col p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #c2c2c2;
+}
+.humidity .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
